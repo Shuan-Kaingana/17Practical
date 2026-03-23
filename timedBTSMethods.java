@@ -1,8 +1,4 @@
 //Claude AI was used to help structure and fix errors in this code
-
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class timedBTSMethods {
     private static final int REPS = 10;
     
@@ -25,7 +21,6 @@ public class timedBTSMethods {
         printInorder(T.getRoot());
         System.out.println("\n(Only odd numbers should remain)\n");
  
-        // ── 2. Timing test with n = 20 (1 048 575 nodes) ─────────────────────
         int  n      = 20;
         long maxKey = (1L << n) - 1;
         System.out.println("=== Timing test: n = " + n
